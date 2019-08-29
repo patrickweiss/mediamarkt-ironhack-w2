@@ -1,3 +1,4 @@
+/*
 console.log("Programm funktioniert");
 
 const bankkontenObjectArray = [
@@ -15,17 +16,19 @@ const bankkontenObjectArray = [
     }
 ]
 
+console.log("Array mit DM-Konten Objekten:" + JSON.stringify(euroBankkontenObjectArray));
+
+
 //convert to euro
 
 const einEuroInDMNumber = 1.97;
-/*
+
 function erzeuge_EuroBankkonten_ObjectArray_AusDMBankkonten_ObjectArray(einDMBankkontenObjectArray){
     console.log(einDMBankkontenObjectArray);
     const ergebnisArray = Array.from(einDMBankkontenObjectArray);
     return ergebnisArray;
 }
 */
-
 /*
 function erzeuge_EuroBankkonten_ObjectArray_AusDMBankkonten_ObjectArray(einDMBankkontenObjectArray){
     console.log(einDMBankkontenObjectArray);
@@ -67,9 +70,10 @@ function erzeuge_EuroBankkonten_ObjectArray_AusDMBankkonten_ObjectArray(einDMBan
     )
     return ergebnisArray;
 }
+
 */
 
-
+/*
 function erzeuge_EuroBankkonten_ObjectArray_AusDMBankkonten_ObjectArray(einDMBankkontenObjectArray) {
     const ergebnisArray = einDMBankkontenObjectArray.map(
         (aktuellesDMKontoObject) => {
@@ -84,7 +88,7 @@ function erzeuge_EuroBankkonten_ObjectArray_AusDMBankkonten_ObjectArray(einDMBan
     )
     return ergebnisArray;
 }
-
+*/
 
 const euroBankkontenObjectArray = erzeuge_EuroBankkonten_ObjectArray_AusDMBankkonten_ObjectArray(bankkontenObjectArray);
 
